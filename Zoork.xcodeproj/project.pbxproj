@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1EAF732C01EDA600A90047 /* NullPassage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF592C01EDA500A90047 /* NullPassage.cpp */; };
+		8B1EAF742C01EDA600A90047 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF5A2C01EDA500A90047 /* GameObject.cpp */; };
+		8B1EAF752C01EDA600A90047 /* Location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF5B2C01EDA500A90047 /* Location.cpp */; };
+		8B1EAF762C01EDA600A90047 /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF5D2C01EDA500A90047 /* Room.cpp */; };
+		8B1EAF772C01EDA600A90047 /* ZOOrkEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF5E2C01EDA500A90047 /* ZOOrkEngine.cpp */; };
+		8B1EAF782C01EDA600A90047 /* PassageDefaultEnterCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF5F2C01EDA500A90047 /* PassageDefaultEnterCommand.cpp */; };
+		8B1EAF792C01EDA600A90047 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF602C01EDA500A90047 /* main.cpp */; };
+		8B1EAF7A2C01EDA600A90047 /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF622C01EDA500A90047 /* Item.cpp */; };
+		8B1EAF7B2C01EDA600A90047 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF632C01EDA500A90047 /* Player.cpp */; };
+		8B1EAF7C2C01EDA600A90047 /* NullCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF652C01EDA500A90047 /* NullCommand.cpp */; };
+		8B1EAF7D2C01EDA600A90047 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF662C01EDA500A90047 /* Character.cpp */; };
+		8B1EAF7E2C01EDA600A90047 /* Passage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF6C2C01EDA500A90047 /* Passage.cpp */; };
+		8B1EAF7F2C01EDA600A90047 /* RoomDefaultEnterCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF6F2C01EDA600A90047 /* RoomDefaultEnterCommand.cpp */; };
+		8B1EAF802C01EDA600A90047 /* NullRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EAF722C01EDA600A90047 /* NullRoom.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B1EAF492C01ED8400A90047 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B1EAF4B2C01ED8400A90047 /* Zoork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Zoork; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1EAF552C01EDA500A90047 /* NullRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NullRoom.h; sourceTree = "<group>"; };
+		8B1EAF562C01EDA500A90047 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		8B1EAF572C01EDA500A90047 /* RoomDefaultEnterCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomDefaultEnterCommand.h; sourceTree = "<group>"; };
+		8B1EAF582C01EDA500A90047 /* NullCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NullCommand.h; sourceTree = "<group>"; };
+		8B1EAF592C01EDA500A90047 /* NullPassage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NullPassage.cpp; sourceTree = "<group>"; };
+		8B1EAF5A2C01EDA500A90047 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		8B1EAF5B2C01EDA500A90047 /* Location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Location.cpp; sourceTree = "<group>"; };
+		8B1EAF5C2C01EDA500A90047 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		8B1EAF5D2C01EDA500A90047 /* Room.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room.cpp; sourceTree = "<group>"; };
+		8B1EAF5E2C01EDA500A90047 /* ZOOrkEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZOOrkEngine.cpp; sourceTree = "<group>"; };
+		8B1EAF5F2C01EDA500A90047 /* PassageDefaultEnterCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PassageDefaultEnterCommand.cpp; sourceTree = "<group>"; };
+		8B1EAF602C01EDA500A90047 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../Downloads/ZOOrk/main.cpp; sourceTree = "<group>"; };
+		8B1EAF612C01EDA500A90047 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		8B1EAF622C01EDA500A90047 /* Item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
+		8B1EAF632C01EDA500A90047 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		8B1EAF642C01EDA500A90047 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		8B1EAF652C01EDA500A90047 /* NullCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NullCommand.cpp; sourceTree = "<group>"; };
+		8B1EAF662C01EDA500A90047 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		8B1EAF672C01EDA500A90047 /* Passage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passage.h; sourceTree = "<group>"; };
+		8B1EAF682C01EDA500A90047 /* ZOOrkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOrkEngine.h; sourceTree = "<group>"; };
+		8B1EAF692C01EDA500A90047 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		8B1EAF6A2C01EDA500A90047 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		8B1EAF6B2C01EDA500A90047 /* PassageDefaultEnterCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassageDefaultEnterCommand.h; sourceTree = "<group>"; };
+		8B1EAF6C2C01EDA500A90047 /* Passage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Passage.cpp; sourceTree = "<group>"; };
+		8B1EAF6D2C01EDA500A90047 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		8B1EAF6E2C01EDA600A90047 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		8B1EAF6F2C01EDA600A90047 /* RoomDefaultEnterCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoomDefaultEnterCommand.cpp; sourceTree = "<group>"; };
+		8B1EAF702C01EDA600A90047 /* cmake-build-debug */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "cmake-build-debug"; sourceTree = "<group>"; };
+		8B1EAF712C01EDA600A90047 /* NullPassage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NullPassage.h; sourceTree = "<group>"; };
+		8B1EAF722C01EDA600A90047 /* NullRoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NullRoom.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B1EAF482C01ED8400A90047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B1EAF422C01ED8400A90047 = {
+			isa = PBXGroup;
+			children = (
+				8B1EAF4D2C01ED8400A90047 /* Zoork */,
+				8B1EAF4C2C01ED8400A90047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B1EAF4C2C01ED8400A90047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B1EAF4B2C01ED8400A90047 /* Zoork */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B1EAF4D2C01ED8400A90047 /* Zoork */ = {
+			isa = PBXGroup;
+			children = (
+				8B1EAF662C01EDA500A90047 /* Character.cpp */,
+				8B1EAF6E2C01EDA600A90047 /* Character.h */,
+				8B1EAF702C01EDA600A90047 /* cmake-build-debug */,
+				8B1EAF6A2C01EDA500A90047 /* CMakeLists.txt */,
+				8B1EAF5C2C01EDA500A90047 /* Command.h */,
+				8B1EAF5A2C01EDA500A90047 /* GameObject.cpp */,
+				8B1EAF6D2C01EDA500A90047 /* GameObject.h */,
+				8B1EAF622C01EDA500A90047 /* Item.cpp */,
+				8B1EAF642C01EDA500A90047 /* Item.h */,
+				8B1EAF5B2C01EDA500A90047 /* Location.cpp */,
+				8B1EAF612C01EDA500A90047 /* Location.h */,
+				8B1EAF602C01EDA500A90047 /* main.cpp */,
+				8B1EAF652C01EDA500A90047 /* NullCommand.cpp */,
+				8B1EAF582C01EDA500A90047 /* NullCommand.h */,
+				8B1EAF592C01EDA500A90047 /* NullPassage.cpp */,
+				8B1EAF712C01EDA600A90047 /* NullPassage.h */,
+				8B1EAF722C01EDA600A90047 /* NullRoom.cpp */,
+				8B1EAF552C01EDA500A90047 /* NullRoom.h */,
+				8B1EAF6C2C01EDA500A90047 /* Passage.cpp */,
+				8B1EAF672C01EDA500A90047 /* Passage.h */,
+				8B1EAF5F2C01EDA500A90047 /* PassageDefaultEnterCommand.cpp */,
+				8B1EAF6B2C01EDA500A90047 /* PassageDefaultEnterCommand.h */,
+				8B1EAF632C01EDA500A90047 /* Player.cpp */,
+				8B1EAF692C01EDA500A90047 /* Player.h */,
+				8B1EAF5D2C01EDA500A90047 /* Room.cpp */,
+				8B1EAF562C01EDA500A90047 /* Room.h */,
+				8B1EAF6F2C01EDA600A90047 /* RoomDefaultEnterCommand.cpp */,
+				8B1EAF572C01EDA500A90047 /* RoomDefaultEnterCommand.h */,
+				8B1EAF5E2C01EDA500A90047 /* ZOOrkEngine.cpp */,
+				8B1EAF682C01EDA500A90047 /* ZOOrkEngine.h */,
+			);
+			path = Zoork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B1EAF4A2C01ED8400A90047 /* Zoork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1EAF522C01ED8400A90047 /* Build configuration list for PBXNativeTarget "Zoork" */;
+			buildPhases = (
+				8B1EAF472C01ED8400A90047 /* Sources */,
+				8B1EAF482C01ED8400A90047 /* Frameworks */,
+				8B1EAF492C01ED8400A90047 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoork;
+			productName = Zoork;
+			productReference = 8B1EAF4B2C01ED8400A90047 /* Zoork */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B1EAF432C01ED8400A90047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8B1EAF4A2C01ED8400A90047 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8B1EAF462C01ED8400A90047 /* Build configuration list for PBXProject "Zoork" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B1EAF422C01ED8400A90047;
+			productRefGroup = 8B1EAF4C2C01ED8400A90047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B1EAF4A2C01ED8400A90047 /* Zoork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B1EAF472C01ED8400A90047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1EAF7A2C01EDA600A90047 /* Item.cpp in Sources */,
+				8B1EAF7F2C01EDA600A90047 /* RoomDefaultEnterCommand.cpp in Sources */,
+				8B1EAF7E2C01EDA600A90047 /* Passage.cpp in Sources */,
+				8B1EAF772C01EDA600A90047 /* ZOOrkEngine.cpp in Sources */,
+				8B1EAF7D2C01EDA600A90047 /* Character.cpp in Sources */,
+				8B1EAF802C01EDA600A90047 /* NullRoom.cpp in Sources */,
+				8B1EAF732C01EDA600A90047 /* NullPassage.cpp in Sources */,
+				8B1EAF7B2C01EDA600A90047 /* Player.cpp in Sources */,
+				8B1EAF752C01EDA600A90047 /* Location.cpp in Sources */,
+				8B1EAF742C01EDA600A90047 /* GameObject.cpp in Sources */,
+				8B1EAF762C01EDA600A90047 /* Room.cpp in Sources */,
+				8B1EAF792C01EDA600A90047 /* main.cpp in Sources */,
+				8B1EAF7C2C01EDA600A90047 /* NullCommand.cpp in Sources */,
+				8B1EAF782C01EDA600A90047 /* PassageDefaultEnterCommand.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B1EAF502C01ED8400A90047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B1EAF512C01ED8400A90047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B1EAF532C01ED8400A90047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X252CPT6V2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B1EAF542C01ED8400A90047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X252CPT6V2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B1EAF462C01ED8400A90047 /* Build configuration list for PBXProject "Zoork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1EAF502C01ED8400A90047 /* Debug */,
+				8B1EAF512C01ED8400A90047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1EAF522C01ED8400A90047 /* Build configuration list for PBXNativeTarget "Zoork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1EAF532C01ED8400A90047 /* Debug */,
+				8B1EAF542C01ED8400A90047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B1EAF432C01ED8400A90047 /* Project object */;
+}
