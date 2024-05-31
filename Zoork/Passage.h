@@ -1,18 +1,14 @@
-//
-// Created by Richard Skarbez on 5/7/23.
-//
-
 #ifndef ZOORK_PASSAGE_H
 #define ZOORK_PASSAGE_H
 
 #include "NullRoom.h"
 #include "Room.h"
 #include <iostream>
+#include <memory>
 
 class Passage : public Location {
 public:
-    static void
-    createBasicPassage(Room*, Room*, const std::string &, bool);
+    static void createBasicPassage(Room*, Room*, const std::string &, bool);
 
     Passage(const std::string &, const std::string &, Room*, Room*);
 

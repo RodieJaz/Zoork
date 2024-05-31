@@ -65,9 +65,26 @@ void ZOOrkEngine::handleGoCommand(std::vector<std::string> arguments) {
 }
 
 void ZOOrkEngine::handleLookCommand(std::vector<std::string> arguments) {
-    // To be implemented
-    std::cout << "This functionality is not yet enabled.\n";
+    Room* currentRoom = player->getCurrentRoom();
+
+    if (arguments.empty()) {
+        // Look at the current room
+        std::cout << currentRoom->getDescription() << std::endl;
+    } else {
+        // Look at a specific object in the room
+        std::string object = arguments[0];
+
+        // Assuming Room has a method to get an item by name
+        auto item = currentRoom->getItem(object);
+        if (item) {
+            std::cout << item->getDescription() << std::endl;
+        } else {
+            std::cout << "There is no " << object << " here." << std::endl;
+        }
+    }
 }
+
+
 
 void ZOOrkEngine::handleTakeCommand(std::vector<std::string> arguments) {
     // To be implemented
