@@ -1,7 +1,3 @@
-//
-// Created by Richard Skarbez on 5/7/23.
-//
-
 #include "ZOOrkEngine.h"
 
 #include <utility>
@@ -38,7 +34,6 @@ void ZOOrkEngine::run() {
         }
     }
 }
-
 
 void ZOOrkEngine::handleGoCommand(std::vector<std::string> arguments) {
     std::string direction;
@@ -83,8 +78,6 @@ void ZOOrkEngine::handleLookCommand(std::vector<std::string> arguments) {
         }
     }
 }
-
-
 
 void ZOOrkEngine::handleTakeCommand(std::vector<std::string> arguments) {
     // To be implemented
